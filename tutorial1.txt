@@ -1,0 +1,170 @@
+//2.1 add two numbers 
+
+#include <stdio.h>
+void main(){
+    int num1=5;
+    int num2=4;
+    int add=num1+num2;
+    printf("%d",add);
+}
+
+//2.2 add two numbers 
+
+#include <stdio.h>
+void main(){
+    int num1;
+    int num2;
+    printf("Enter the first integer: ");
+    scanf("%d",&num1);
+    printf("Enter the second integer: ");
+    scanf("%d",&num2);
+    int add=num1+num2;
+    printf("%d",add);
+}
+
+// 3.simple interest 
+
+#include <stdio.h>
+void main(){
+    int p;
+    int t;
+    float r;
+    printf("Enter the principal: ");
+    scanf("%d",&p);
+    printf("Enter time: ");
+    scanf("%d",&t);
+    printf("Enter rate: ");
+    scanf("%f",&r);
+    float interest = p*t*r/100;
+    printf("%f",interest);
+}
+
+// 4.conversion of temperature
+
+#include <stdio.h>
+void main(){
+    float c;
+    printf("Enter the temperature in celsius: ");
+    scanf("%f",&c);
+    float fahren = (c*9/5)+32;
+    printf("the temperature in fahrenheit is:");
+    printf("%f" ,fahren);
+    printf("\nthe temperature in celsius is:");
+    float celsius = ((fahren-32)*5)/9;
+    printf("%f",celsius);
+}
+
+// 6.num is odd or even
+
+#include <stdio.h>
+void main(){
+    int num;
+    printf("Enter any number: ");
+    scanf("%d",&num);
+    if (num%2==0){
+        printf("the given number is even number.");
+    }else{
+        printf("The given number is odd number.");
+    }
+}
+
+// 7.greatest number
+
+#include <stdio.h>
+void main(){
+    int num1=22;
+    int num2=25;
+    int num3=28;
+    if (num1>num2){
+        printf("%d is the greatest of two numbers.",num1);
+    }else{
+        printf("%d is the greatest of two numbers. \n",num2);
+    }
+    if (num1>num2 && num1>num3){
+        printf("%d is the greatest of three numbers.",num1);
+    }
+    else if(num2>num1 && num2>num3){
+        printf("%d is the greatest of three numbers.",num2);
+    }
+    else{
+       printf("%d is the greatest of three numbers.",num3); 
+    }
+}
+
+// 8.switch case
+
+#include <stdio.h>
+void main(){
+    int num=22;
+    switch(num){
+    case 20:
+    printf("Value is 20.");
+    break;
+    case 21:
+    printf("Value is 21.");
+    break;
+    case 22:
+    printf("Value is 22.");
+    break;
+    case 23:
+    printf("Value is 23.");
+    default:
+    printf("Out of range");
+    break;
+}
+}
+
+// 9.1numbers from 1 to 100
+
+#include <stdio.h>
+void main(){
+    int i=0;
+    for (int i=1; i<=100; i++){
+    printf("%d",i);
+    }
+}
+
+// 9.2even numbers from 1 to 100
+
+#include <stdio.h>
+void main(){
+    int i=0;
+    for (int i=1; i<=100; i++){
+        if(i%2==0){
+            printf("%d\n",i);
+    }
+}
+}
+
+// 10.numbers in pattern
+
+#include <stdio.h>
+void main(){
+    int i=0;
+    for (int i=1; i<=5; i++){
+        for(int j=1; j<=i; j++){
+            printf("%d",i);
+    }
+    printf("\n");
+}
+}
+
+// 11.multiplication number
+
+#include <stdio.h>
+void main(){
+    int num;
+    int multiply;
+    printf("Enter a number:");
+    scanf("%d",&num);
+    for (int i=1; i<=10; i++){
+        int multiply = i*num;
+            printf("%d\n",multiply);
+    }
+}
+
+
+
+
+
+
