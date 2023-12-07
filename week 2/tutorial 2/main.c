@@ -15,6 +15,18 @@
 // }
 
 
+
+// int cube(int n){
+//     return n*n*n;
+// }
+// void main(){
+//     int n=3;
+//     printf("%d",cube(n));
+
+
+// }
+
+
 //2.write a program in c to find the square of any number using function.
 
 //int square ( int y );
@@ -63,20 +75,20 @@
 //    }
 
 // 6. to convert decimal to binary number using function.
-//int binary(int n){
-// if ( n == 0){
-//    return  0;
-// }else{
-//     return (n % 2)+10*binary(n/2);
-//  }
-//}
-// int main()
-// {
-//    int n;
-//    printf("Enter a decimal number: ");
-//    scanf("%d",&n);
-//    printf("%d in decimal = %d in binary", n, binary(n));
-// }
+int binary(int n){
+if ( n == 0){
+   return  0;
+}else{
+    return (n % 2)+10*binary(n/2);
+ }
+}
+int main()
+{
+   int n;
+   printf("Enter a decimal number: ");
+   scanf("%d",&n);
+   printf("%d in decimal = %d in binary", n, binary(n));
+}
 
 // 7. to check whether a number is a prime number or not using function.
 //int prime(int n){
@@ -140,18 +152,18 @@
 //    }
 
 // 9. anagrams
-int main(){
-    int n;
-    printf("Enter a strings: ");
-    scanf("%d",&n);
-    if( armstrg(n)){
-        printf("%d is a armstrong number.\n",n);
-    }else{
-        printf("%d is  not a armstrong number.\n",n);
-        }
-    if( perfect(n)){
-        printf("%d is a perfect number.",n);
-    }else{
-        printf("%d is  not a perfect number.",n);
-        }
-    }
+//int main(){
+//    int n;
+//    printf("Enter a strings: ");
+//    scanf("%d",&n);
+//    if( armstrg(n)){
+//        printf("%d is a armstrong number.\n",n);
+//    }else{
+//        printf("%d is  not a armstrong number.\n",n);
+//        }
+//    if( perfect(n)){
+//        printf("%d is a perfect number.",n);
+//    }else{
+//        printf("%d is  not a perfect number.",n);
+//        }
+//    }

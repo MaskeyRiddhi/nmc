@@ -87,20 +87,20 @@
 // a = number in front of x of equation one b= number in front of y of equation one c = constant of equation one
 // d = number in front of x of equation two e = number in front of y of equation two f= constant of equation two
 
-void equations(double a, double b, double c, double d, double e, double f){
-    double x;
-    double y;
-     y = (c - a*x)/b;
-     x = (f - d* y)/e;
-    printf("The value of y is %2.lf\n",y);
-    printf("The value of x is %2.lf",x);
-}
-void main(){
-    double a = 3;
-    double b = 4;
-    double c = 6;
-    double d = 5;
-    double e = 2;
-    double f = 1;
-    equations(a,b,c,d,e,f);
-}
+//void equations(double a, double b, double c, double d, double e, double f){
+//    double x;
+//    double y;
+//     y = (c - a*x)/b;
+//     x = (f - d* y)/e;
+//    printf("The value of y is %2.lf\n",y);
+//    printf("The value of x is %2.lf",x);
+//}
+//void main(){
+//    double a = 3;
+//    double b = 4;
+//    double c = 6;
+//    double d = 5;
+//    double e = 2;
+//    double f = 1;
+//    equations(a,b,c,d,e,f);
+//}
