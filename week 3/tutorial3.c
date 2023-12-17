@@ -1,21 +1,21 @@
 #include <stdio.h>
 
 // 1. wap to find the largest element of an array.
-//void main(){
-//    int temp=0, i;
-//    int arr[6] = {15,10,21,6,9,25};
-//
-//    for(i=1; i<6; i++){
-//        if(temp<arr[i]){
-//            temp=arr[i];
-//        }
-//    }
-//    printf("Largest element in an array: %d",temp);
-//}
+void main(){
+    int temp=0, i;
+    int arr[6] = {15,10,21,6,9,25};
+
+    for(i=1; i<6; i++){
+        if(temp<arr[i]){
+            temp=arr[i];
+        }
+    }
+    printf("Largest element in an array: %d",temp);
+}
 
 // 2. Wap to sort array elements in ascending order.
 
-//int main(){
+// int main(){
 //    int arr[] = {5, 12, 8, 7, 19,1};
 //    int temp = 0;
 //    int len = sizeof(arr)/sizeof(arr[0]);
@@ -37,7 +37,7 @@
 //    for (int i = 0; i < len; i++) {
 //        printf("%d ", arr[i]);
 //    }
-//}
+// }
 
 //3. wap to calculate sum and average of element of array
 //int calculateSum(int arr[], int n) {
@@ -126,6 +126,6 @@
 
 //6.wap to swap the number using pointer
 // void main(){
-    int a;
-    int b;
-}
+//    int a;
+//    int b;
+//}
