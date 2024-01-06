@@ -1,0 +1,5 @@
+Name	Age	Salary
+roshan	15	25000
+ritik	24	15634
+mahesh	25	32480
+bibas	23	6547

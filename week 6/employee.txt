@@ -1,0 +1,6 @@
+Name	Age	Salary
+Roshan	23	15000
+Mahesh	24	20000
+Bibash	23	18500
+Aayusha	20  19500
+Amrita	21	17500

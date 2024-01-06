@@ -1,0 +1,9 @@
+Typical operations on a file are:
+
+Open : To open a file to store/retrieve data in it
+Read : The file is used as an input
+Write : The file is used as output
+Close : Preserve the file for a later use
+Access: Random accessing data in a file
+
+The above data are the operations of files.
